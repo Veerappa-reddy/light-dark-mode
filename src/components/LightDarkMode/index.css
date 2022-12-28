@@ -1,0 +1,44 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-bg-container {
+  border: 1px solid #000000;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+}
+.light-mode {
+  background-color: #fff;
+  color: #000;
+}
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+.heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+.button {
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 7px;
+}
